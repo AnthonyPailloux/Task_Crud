@@ -1,0 +1,19 @@
+/* - Définit le style général du site
+   - Stylise les boutons, tableaux, formulaires
+   - Uniformise la présentation entre toutes les pages
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
